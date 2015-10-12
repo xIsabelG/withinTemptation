@@ -1,0 +1,291 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+
+html {
+    background: url("https://wallpaperscraft.com/image/color_pattern_texture_background_dark_50400_1280x1024.jpg")
+                rgba(0, 0, 12, 0.9);
+}
+
+body {
+    width: 99%;
+    background: url('https://wallpaperscraft.com/image/color_pattern_texture_background_dark_50400_1280x1024.jpg')
+                rgba(255, 255, 240, 0.60);
+    margin-left: 5px;
+
+}
+
+.desc {
+
+	background-color: #fff;
+	border: 1px solid #000;
+	position: absolute;
+	margin-left: 100px;
+	margin-top: -20px;
+	width: 200px;
+}
+
+footer {
+    background-color: rgba(210, 246, 214, 0.47);
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-top: 1px;
+
+}
+
+header {
+
+    background: url('http://i210.photobucket.com/albums/bb40/Timoros/News%20Various/WihtinTemptationMailingHeader.jpg')
+    no-repeat center rgb(251, 251, 251);
+    height: 120px;
+    position: relative;
+}
+
+
+/*NAV*/
+nav {
+    width: 12.75%;
+    height: 350px;
+    letter-spacing: 1px;
+    background-color: rgba(225, 237, 231, 0.76);
+    color: #580058;
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-top: 2px;
+    float: left;
+    margin-right: 10px;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ff2600;
+}
+
+
+/*ABOUT*/
+#about1 {
+    float: right;
+    margin-top: 65px;
+    margin-bottom: 20px;
+}
+
+
+/*TOURDATA*/
+td {
+    padding: 2px;
+    border-color: transparent;
+}
+
+#tourdata {
+    margin-bottom: 20px;
+}
+
+
+/*TOURVLOGS*/
+#videos {
+    width: 728px;
+    margin: auto;
+    padding: 10px;
+    font-family: 'Dosis', sans-serif;
+}
+
+
+/*NEWS*/
+#search {
+    float: right;
+    margin-right: 200px;
+    margin-top: 10px;
+}
+
+#img {
+    float: right;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 25%;
+    height: 25%;
+}
+
+/*CONTACT*/
+#contact a {
+    text-decoration: none;
+}
+
+
+/*ALL*/
+#news, #band, #disco, #tourdates, #tourdata, #contact, #about, #tourvlogs, #videos, #pag, #endSearch {
+    width: 71.5%;
+    margin: auto;
+    padding: 10px;
+    font-family: 'Dosis', sans-serif;
+    font-size: large;
+    /*background-color: rgba(255, 255, 240, 0.60);*/
+
+}
+
+#news, #band, #disco, #tourdates, #tourdata, #contact, #about, #tourvlogs, #videos, #pag, #endSearch {
+    background-color: rgba(255, 255, 240, 0.60);
+
+}
+
+
+/*BANDMEMBERS*/
+#sharon:hover  .toggle  {
+    display: inline;
+}
+#sharon img {
+    float: right;
+    margin-right: 50px;
+    height: 20%;
+    width: 20%;
+}
+
+#martijn:hover .toggle {
+    display: inline;
+}
+#martijn img {
+    float: right;
+    margin-right: 50px;
+    height: 20%;
+    width: 20%;
+}
+
+#jeroen:hover .toggle {
+    display: inline;
+}
+#jeroen img {
+    float: right;
+    margin-right: 50px;
+    height: 20%;
+    width: 20%;
+}
+
+#ruud:hover .toggle {
+    display: inline;
+}
+#ruud img {
+    float: right;
+    margin-right: 50px;
+    height: 20%;
+    width: 20%;
+}
+
+#stefan:hover .toggle {
+    display: inline;
+}
+#stefan img {
+    float: right;
+    margin-right: 50px;
+    height: 20%;
+    width: 20%;
+}
+
+#mike:hover .toggle {
+    display: inline;
+}
+#mike img {
+    float: right;
+    margin-right: 50px;
+    height: 20%;
+    width: 20%;
+}
+
+
+/*DISCOGRAPHY*/
+.toggle {
+    display: none;
+}
+
+#enter:hover .toggle{
+    display: inline;
+}
+#enter img {
+    float: right;
+    margin-right: 50px;
+    height: 22%;
+    width: 22%;
+}
+
+#dance:hover .toggle{
+    display: inline;
+}
+#dance img {
+    float: right;
+    margin-right: 50px;
+    height: 22%;
+    width: 22%;
+}
+
+#earth:hover .toggle{
+    display: inline;
+}
+#earth img {
+    float: right;
+    margin-right: 50px;
+    height: 22%;
+    width: 22%;
+}
+
+#silent:hover .toggle{
+    display: inline;
+}
+#silent img {
+    float: right;
+    margin-right: 50px;
+    height: 22%;
+    width: 22%;
+}
+
+#heart:hover .toggle{
+    display: inline;
+}
+#heart img {
+    float: right;
+    margin-right: 50px;
+    height: 22%;
+    width: 22%;
+}
+
+#unforgiving:hover .toggle{
+    display: inline;
+}
+#unforgiving img {
+    float: right;
+    margin-right: 50px;
+    height: 22%;
+    width: 22%;
+}
+
+#hydra:hover .toggle{
+    display: inline;
+}
+#hydra img {
+    float: right;
+    margin-right: 50px;
+    height: 22%;
+    width: 22%;
+}
+
+.selected {
+    text-decoration: solid;
+    color: #ff2600;
+    font-weight: bold;
+}
+
+#pag {
+
+}
+
+#pag li {
+    list-style-type: none;
+
+}
+
+/*zet in divje alles, alleen toggle hiden en de rest niet, include de rest wel in hover display*/
